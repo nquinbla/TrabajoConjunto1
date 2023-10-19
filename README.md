@@ -1,3 +1,3 @@
 # TrabajoConjunto1
-Nerea Quintanilla y Daniel José
+Nerea Quintanilla, Daniel José González y Cintia Santillán.
 https://github.com/nquinbla/TrabajoConjunto1.git
