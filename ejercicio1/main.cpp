@@ -8,10 +8,10 @@ int main() {
     std::cout << "Por favor ingrese su nombre: ";
     std::cin >> nombre;
 
-    std::cout << "Por favor ingrese tu edad: ";
+    std::cout << "A continuacion ingrese tu edad: ";
     std::cin >> edad;
 
-    std::cout << "Hola, " << nombre << " !Tienes " << edad << " años.\n ";
+    std::cout << "Hola, " << nombre << "! Tienes " << edad << " años.\n ";
 
     return 0;
 }
