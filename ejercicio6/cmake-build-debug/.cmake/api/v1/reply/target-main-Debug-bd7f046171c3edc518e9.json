@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ejercicio6.exe"
+			"path" : "main.exe"
 		},
 		{
-			"path" : "ejercicio6.pdb"
+			"path" : "main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "ejercicio6::@6890427a1f51a3e7e1df",
+	"id" : "main::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "ejercicio6",
-	"nameOnDisk" : "ejercicio6.exe",
+	"name" : "main",
+	"nameOnDisk" : "main.exe",
 	"paths" : 
 	{
 		"build" : ".",

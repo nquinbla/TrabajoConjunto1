@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -20,7 +20,39 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65bdeed0-e9b7-4818-b2b6-4822ec71cc84" name="Changes" comment="" />
+    <list default="true" id="65bdeed0-e9b7-4818-b2b6-4822ec71cc84" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ejercicio1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio3/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio3/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio3/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio3/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio3/cmake-build-debug/CMakeFiles/main.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio3/cmake-build-debug/CMakeFiles/main.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio3/cmake-build-debug/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio3/cmake-build-debug/main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio3/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio3/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio4/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio4/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio4/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio4/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio4/cmake-build-debug/CMakeFiles/main.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio4/cmake-build-debug/CMakeFiles/main.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio4/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio4/cmake-build-debug/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio4/cmake-build-debug/main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio4/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio4/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio5/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio5/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7503cea41b8342f936dd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d4471b16e4689ffe662f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/.cmake/api/v1/reply/index-2023-10-23T19-48-08-0452.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/.cmake/api/v1/reply/target-ejercicio6-Debug-435e3f31d9273a7aa2d3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/CMakeFiles/ejercicio6.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/CMakeFiles/ejercicio6.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/ejercicio6.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6/cmake-build-debug/ejercicio6.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio6/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,36 +70,31 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="2.2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2XB0MKctOLonoexoDBeHuwQ81Wz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "dani",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dani&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ejercicio2" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ejercicio2" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -83,6 +110,8 @@
       <option name="presentableId" value="Default" />
       <updated>1698087116844</updated>
       <workItem from="1698087118388" duration="864000" />
+      <workItem from="1698093630030" duration="4000" />
+      <workItem from="1698093640682" duration="3000" />
     </task>
     <servers />
   </component>
