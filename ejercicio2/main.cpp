@@ -3,13 +3,13 @@
 int main() {
     int edad;
 
-    std::cout << "Por favor ingrese su edad: ";
+    std::cout << "Por favor introduzca su edad: ";
     std::cin >> edad;
 
     if (edad >= 18) {
-        std::cout << "Eres mayor de edad.\n";
+        std::cout << "Usted es mayor de edad.\n";
     } else {
-        std::cout << "Eres menor de edad.\n";
+        std::cout << "Usted es menor de edad.\n";
     }
 
     return 0;

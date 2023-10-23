@@ -3,4 +3,4 @@ project(ejercicio2)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(ejercicio2 main.cpp)
+add_executable(main main.cpp)
