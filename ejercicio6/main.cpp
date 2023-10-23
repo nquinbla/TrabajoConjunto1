@@ -1,12 +1,14 @@
 #include <iostream>
 
 int main() {
+    // Punteros a Variables
     int x = 23;
     int *p = &x;
     std::cout << "Punteros a Variables: " << std::endl;
     std::cout << "Valor de x: " << x << std::endl;
     std:: cout << "Valor a traves del puntero p: " << *p << std::endl;
 
+    // Punteros y Arrays
     int arr[] = {1, 2, 3, 4, 5};
     int *ptr =arr;
     std::cout << "\nPunteros y Arrays: " << std::endl;
@@ -15,12 +17,14 @@ int main() {
         ptr++;
     }
 
+    // Asignacion de Memoria Dinamica
     int *p_dyn = new int;
     *p_dyn = 33;
     std::cout << "\nAsignacion de Memoria Dinamica: " << std::endl;
     std::cout << "Valor a traves del puntero p_dyn: " << *p_dyn << std::endl;
     delete p_dyn;
 
+    // Aritmetica de Punteros
     int arr2[] = {10, 20, 30, 40, 50};
     int *ptr2 = arr2;
     std::cout << "\nAritmetica de Punteros: " << std::endl;
@@ -31,6 +35,7 @@ int main() {
     std::cout << "Elemento 3: " << *ptr2 << std::endl;
     std::cout << "Elemento 4: " << *ptr2 << std::endl;
 
+    // Punteros a Punteros
     int y = 43;
     int *p1 = &y;
     int **p2 = &p1;
@@ -44,6 +49,7 @@ int main() {
     std::cout << "Valor a traves de p2: " << **p2 << std::endl;
     std::cout << "-----------------------" << std::endl;
 
+    // Punteros a Funciones
     int (*functionPtr)(int, int) = [](int a, int b) { return a *b; };
     int result = functionPtr(3, 4);
     std::cout << "\nPunteros a Funciones: " << std::endl;
