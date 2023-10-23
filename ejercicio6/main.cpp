@@ -31,5 +31,23 @@ int main() {
     std::cout << "Elemento 3: " << *ptr2 << std::endl;
     std::cout << "Elemento 4: " << *ptr2 << std::endl;
 
+    int y = 43;
+    int *p1 = &y;
+    int **p2 = &p1;
+    std::cout << "\nPunteros a Punteros: " << std::endl;
+    std::cout << "Valor de y: " << y << std::endl;
+    std::cout << "-----------------------" << std::endl;
+    std::cout << "Acceso a traves de p1: " << std::endl;
+    std::cout << "Valor a traves de p1: " << *p1 << std::endl;
+    std::cout << "-----------------------" << std::endl;
+    std::cout << "Acceso a traves de p2: " << std::endl;
+    std::cout << "Valor a traves de p2: " << **p2 << std::endl;
+    std::cout << "-----------------------" << std::endl;
+
+    int (*functionPtr)(int, int) = [](int a, int b) { return a *b; };
+    int result = functionPtr(3, 4);
+    std::cout << "\nPunteros a Funciones: " << std::endl;
+    std::cout << "Resultado: " << result << std::endl;
+
     return 0;
 }
