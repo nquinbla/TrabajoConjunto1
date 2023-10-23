@@ -1,3 +1,0 @@
-C:/Users/nerea/OneDrive/Documentos/GitHub/TrabajoConjunto1/cmake-build-debug/CMakeFiles/TrabajoConjunto1.dir
-C:/Users/nerea/OneDrive/Documentos/GitHub/TrabajoConjunto1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/nerea/OneDrive/Documentos/GitHub/TrabajoConjunto1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
