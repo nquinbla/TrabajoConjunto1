@@ -28,12 +28,11 @@ int main() {
     int arr2[] = {10, 20, 30, 40, 50};
     int *ptr2 = arr2;
     std::cout << "\nAritmetica de Punteros: " << std::endl;
-    std::cout << "Elemento 0: " << *ptr2 << std::endl;
-    ptr2++;
-    std::cout << "Elemento 1: " << *ptr2 << std::endl;
-    std::cout << "Elemento 2: " << *ptr2 << std::endl;
-    std::cout << "Elemento 3: " << *ptr2 << std::endl;
-    std::cout << "Elemento 4: " << *ptr2 << std::endl;
+    std::cout << "Elemento 0: " << ptr2[2] << std::endl;
+    std::cout << "Elemento 1: " << ptr2[1] << std::endl;
+    std::cout << "Elemento 4: " << ptr2[3] << std::endl;
+    std::cout << "Elemento 5: " << ptr2[0] << std::endl;
+    std::cout << "Elemento 0: " << ptr2[4] << std::endl;
 
     // Punteros a Punteros
     int y = 43;
