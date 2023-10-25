@@ -79,84 +79,6 @@ build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
   TARGET_IMPLIB = libmain.dll.a
   TARGET_PDB = main.exe.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target main2
-
-
-#############################################
-# Order-only phony target for main2
-
-build cmake_object_order_depends_target_main2: phony || CMakeFiles/main2.dir
-
-build CMakeFiles/main2.dir/main.cpp.obj: CXX_COMPILER__main2_unscanned_Debug C$:/Users/danij/OneDrive/Documentos/GitHub/TrabajoConjunto1/ejercicio5/main.cpp || cmake_object_order_depends_target_main2
-  DEP_FILE = CMakeFiles\main2.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\main2.dir
-  OBJECT_FILE_DIR = CMakeFiles\main2.dir
-
-build CMakeFiles/main2.dir/funciones.cpp.obj: CXX_COMPILER__main2_unscanned_Debug C$:/Users/danij/OneDrive/Documentos/GitHub/TrabajoConjunto1/ejercicio5/funciones.cpp || cmake_object_order_depends_target_main2
-  DEP_FILE = CMakeFiles\main2.dir\funciones.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\main2.dir
-  OBJECT_FILE_DIR = CMakeFiles\main2.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target main2
-
-
-#############################################
-# Link the executable main2.exe
-
-build main2.exe: CXX_EXECUTABLE_LINKER__main2_Debug CMakeFiles/main2.dir/main.cpp.obj CMakeFiles/main2.dir/funciones.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\main2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = main2.exe
-  TARGET_IMPLIB = libmain2.dll.a
-  TARGET_PDB = main2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target main3
-
-
-#############################################
-# Order-only phony target for main3
-
-build cmake_object_order_depends_target_main3: phony || CMakeFiles/main3.dir
-
-build CMakeFiles/main3.dir/main.cpp.obj: CXX_COMPILER__main3_unscanned_Debug C$:/Users/danij/OneDrive/Documentos/GitHub/TrabajoConjunto1/ejercicio5/main.cpp || cmake_object_order_depends_target_main3
-  DEP_FILE = CMakeFiles\main3.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\main3.dir
-  OBJECT_FILE_DIR = CMakeFiles\main3.dir
-
-build CMakeFiles/main3.dir/funciones.cpp.obj: CXX_COMPILER__main3_unscanned_Debug C$:/Users/danij/OneDrive/Documentos/GitHub/TrabajoConjunto1/ejercicio5/funciones.cpp || cmake_object_order_depends_target_main3
-  DEP_FILE = CMakeFiles\main3.dir\funciones.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\main3.dir
-  OBJECT_FILE_DIR = CMakeFiles\main3.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target main3
-
-
-#############################################
-# Link the executable main3.exe
-
-build main3.exe: CXX_EXECUTABLE_LINKER__main3_Debug CMakeFiles/main3.dir/main.cpp.obj CMakeFiles/main3.dir/funciones.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\main3.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = main3.exe
-  TARGET_IMPLIB = libmain3.dll.a
-  TARGET_PDB = main3.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -185,10 +107,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build main: phony main.exe
 
-build main2: phony main2.exe
-
-build main3: phony main3.exe
-
 # =============================================================================
 # Folder targets.
 
@@ -197,7 +115,7 @@ build main3: phony main3.exe
 #############################################
 # Folder: C:/Users/danij/OneDrive/Documentos/GitHub/TrabajoConjunto1/ejercicio5/cmake-build-debug
 
-build all: phony main.exe main2.exe main3.exe
+build all: phony main.exe
 
 # =============================================================================
 # Built-in targets

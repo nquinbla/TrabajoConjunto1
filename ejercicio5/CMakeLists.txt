@@ -4,5 +4,3 @@ project(ejercicio5)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(main main.cpp funciones.cpp funciones.h)
-add_executable(main2 main.cpp funciones.cpp funciones.h)
-add_executable(main3 main.cpp funciones.cpp funciones.h)
