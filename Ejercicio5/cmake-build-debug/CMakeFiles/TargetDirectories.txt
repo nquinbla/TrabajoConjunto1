@@ -1,3 +1,0 @@
-C:/Users/cinti/Documents/GitHub/TrabajoConjunto1/Ejercicio5/cmake-build-debug/CMakeFiles/Ejercicio5.dir
-C:/Users/cinti/Documents/GitHub/TrabajoConjunto1/Ejercicio5/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/cinti/Documents/GitHub/TrabajoConjunto1/Ejercicio5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
