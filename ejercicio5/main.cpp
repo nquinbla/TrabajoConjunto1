@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdarg>
+#include "funciones.h"
 
 //Declaracion de una funcion
 int suma(int a, int b) {
@@ -61,6 +62,20 @@ int suma2(int c, int d = 0) {
     return c + d;
 }
 
+//Funciones en linea
+inline int suma3(int e, int f) {
+    return e + f;
+}
+
+//Funciones recursivas
+int factorial(int n) {
+    if (n == 0 || n == 1) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+
 int main() {
     //Declaracion de una funcion
     int resultado1 = suma(5, 3);
@@ -109,8 +124,39 @@ int main() {
     //Asignacion de valores por defecto a los argumentos
     int num3 = 99;
     int num4 = 11;
-    int resultado 1 = suma2(num3);
-    std::cout << "Resultado 1: " << resultado1 <<
+    int resultado2 = suma2(num3);
+    std::cout << "Resultado 2: " << resultado1 << std::endl;
+    int resultado3 = suma2(num3, num4);
+    std::cout << "Resultado 3: " << resultado2 << std::endl;
 
+    //Funciones en linea
+    int num5 = 123;
+    int num6 = 123;
+    int resultado4 = suma3(num5, num6);
+    std::cout << "Resultado de la suma: " << resultado4 << std::endl;
 
+    //Funciones externas de tipo C
+    int resultado5 = miFuncionExterna();
+    std::cout << "El resultado de la funcion externa es: " << resultado5 << std::endl;
+
+    //Funciones recursivas
+    int num7 = 6;
+    int resultado6 = factorial(num7);
+    std::cout << "El factorial de " << num7 << " es " << resultado6 << std::endl;
+
+    std::cout << "Funcion main sin argumento" << std::endl;
+    return 0;
+}
+
+int main2(int argc, char* argv[]) {
+    std::cout << "Funcion main con argumentos de linea de comandos" << std::endl;
+    for (int i = 0; i < argc; i++) {
+        std::cout << "Argumento " << i << ": " << argv[i] << std::endl;
+    }
+    return 1;
+}
+
+int main3(int argc, char* argv[], char* envp[]) {
+    std::cout << "Funcion main con argumentos de ambiente" << std::endl;
+    return 2;
 }

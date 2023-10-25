@@ -15,7 +15,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -30,7 +32,9 @@
 					"name" : "ejercicio5",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -39,8 +43,22 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-bd7f046171c3edc518e9.json",
+					"jsonFile" : "target-main-Debug-cb2b7d03e3161aef9eeb.json",
 					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main2-Debug-3624930921cc6f8c0ae6.json",
+					"name" : "main2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main3-Debug-33140c0d5b2bcdda84d2.json",
+					"name" : "main3",
 					"projectIndex" : 0
 				}
 			]
