@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cstdarg>
 #include "funciones.h"
+#include "main2.h"
+#include "main3.h"
 
 //Declaracion de una funcion
 int suma(int a, int b) {
@@ -76,7 +78,7 @@ int factorial(int n) {
     }
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     //Declaracion de una funcion
     int resultado1 = suma(5, 3);
     std::cout << "La suma de 5 y 3 es " << resultado1 << "\n";
@@ -145,18 +147,21 @@ int main() {
     std::cout << "El factorial de " << num7 << " es " << resultado6 << std::endl;
 
     std::cout << "Funcion main sin argumento" << std::endl;
+
+    //La funcion main()
+    int resultado7 = main2(argc, argv);
+    std::cout << "Resultado de main2: " << resultado7 << std::endl;
+
+     char* envp[] = {
+            "VAR1=valor1",
+            "VAR2=valor2",
+            "OTRA_VAR=otro_valor",
+            nullptr
+
+    };
+    int resultado8 = main3(argc, argv, envp);
+    std::cout <<"Resultado de main3: " << resultado8 << std::endl;
+
     return 0;
 }
 
-int main2(int argc, char* argv[]) {
-    std::cout << "Funcion main con argumentos de linea de comandos" << std::endl;
-    for (int i = 0; i < argc; i++) {
-        std::cout << "Argumento " << i << ": " << argv[i] << std::endl;
-    }
-    return 1;
-}
-
-int main3(int argc, char* argv[], char* envp[]) {
-    std::cout << "Funcion main con argumentos de ambiente" << std::endl;
-    return 2;
-}

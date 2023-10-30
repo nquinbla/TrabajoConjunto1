@@ -1,10 +1,17 @@
 # ninja log v5
-0	702	7197934615002185	CMakeFiles/ejercicio5.dir/main.cpp.obj	cda89becb6214e71
 3	494	7199766982994480	CMakeFiles/main2.dir/funciones.cpp.obj	8f1e8a2f20287555
+0	702	7197934615002185	CMakeFiles/ejercicio5.dir/main.cpp.obj	cda89becb6214e71
 704	878	7197934616708291	ejercicio5.exe	feb1639a3972d682
-58	925	7199750179605080	CMakeFiles/main.dir/funciones.cpp.obj	ec1201a2af3e86e7
+1	352	7203596562561947	build.ninja	9a6dfe3f9ccb0c89
 2	752	7199764384263197	CMakeFiles/main.dir/main.cpp.obj	901ffb7af4d34521
-1	352	7199770740211317	build.ninja	9a6dfe3f9ccb0c89
+58	925	7199750179605080	CMakeFiles/main.dir/funciones.cpp.obj	ec1201a2af3e86e7
 752	924	7199764385942292	main.exe	bcbe20dddff5108a
 1	745	7199764576190123	CMakeFiles/main2.dir/main.cpp.obj	fe3c173b2a69f23a
 494	683	7199766984865019	main2.exe	3f1b4fcdeb5151c2
+2	429	7203596562561947	build.ninja	9a6dfe3f9ccb0c89
+46	1043	7203596573324042	CMakeFiles/main.dir/main3.cpp.obj	a4168217215fa6d3
+89	1393	7203596576818133	CMakeFiles/main.dir/main2.cpp.obj	f3ce008a2193d0b5
+3	723	7203598766085619	CMakeFiles/main.dir/main.cpp.obj	901ffb7af4d34521
+724	912	7203598767931468	main.exe	df6f2b17117ba29a
+3	871	7203599440112965	CMakeFiles/main.dir/main.cpp.obj	901ffb7af4d34521
+871	1038	7203599441772800	main.exe	df6f2b17117ba29a
